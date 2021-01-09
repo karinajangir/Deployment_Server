@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
     <style>
-        .btn{
-            /* padding: 15px 300px; */
-            /* align-content: center; */
+        #app-navbar {
+    background: linear-gradient(120deg, #0ce9f9, #5a84eb)
+}
+        #navcol-1 {
+margin-right: 5%;
         }
+        #logo-1 {
+            margin-left: 70px;
+            
+             
+        } 
+        
         .button {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 9px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin: 4px 2px;
+  margin-left: 250px;
   cursor: pointer;
   align-self: center;
 }
 
 
-.button1 {background-color: #008CBA;
+.button1 {background-color: #5a84eb;
     } /* Blue */
 .footer {
    /* position: fixed; */
@@ -40,14 +48,42 @@
 </style>
 </head>
 <body>
+    <div class="content my-3">
+        <div class="row align-items-center">
+            
+            <!-- <img src="sites/all/themes/civildefence/images/indian-embelam.png" title="Government of India" alt="Indian Embelam" /> -->
+            <div class="logo" id="logo-1">
+                <img src="photo-gallery/indian-embelam.png" width="30" height="50" >
+            
+                </div>
+            
+            <div class="col-7 inline-block" title="HOMEGUARDS">
+                
+             <p>RAJASTHAN HOMEGUARDS</p>
+             
+             
+             </div>
+             <div class="col-1" id="logo-1">
+                <img src="photo-gallery/homeguard.jpg" width="70" height="70">
+                <!-- <button class="button button1">DISTRICT</button> -->
+            </div>
+            <div class="col-2">
+                <div class="my-3" >
+                Date:- 
+                <span id="date">
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+                </span>
+            </div></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark my-3" id="app-navbar">
     <!-- <nav class="navbar navbar-dark bg-primary"> -->
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <!-- <img src="photo-gallery/indian-embelam.png"  width="50" height="60"> -->
-        <img src="photo-gallery/homeguard.jpg"  width="50" height="50">
+        <!-- <img src="photo-gallery/homeguard.jpg"  width="50" height="50"> -->
         
-        <div class="collapse navbar-collapse mx-5" id="navbarNavDropdown" >
+        <div class="collapse navbar-collapse mx-5" id="navbarNav" >
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link mx-5" href="./main.html" style="font-size: large;">Home <span class="sr-only">(current)</span></a>
@@ -58,6 +94,10 @@
             <li class="nav-item">
               <a class="nav-link mx-5" href="./account.html" style="font-size: large;">My Account</a>
             </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle mx-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: large;">
                 User Name
@@ -67,33 +107,11 @@
                 
               </div>
             </li>
-          </ul>
+        </ul>
         </div>
         
         </nav>
-        <!--  -->
-        <div class="content my-5">
-            <div class="row align-items-center">
-                
-                <!-- <img src="sites/all/themes/civildefence/images/indian-embelam.png" title="Government of India" alt="Indian Embelam" /> -->
-                
-                <div class="col-6 mx-5" title="HOMEGUARDS">
-                 <h2>RAJASTHAN HOMEGUARDS</h2>
-                 
-                 
-                 </div>
-                 <div class="col-3 " >
-                    <button class="button button1">DISTRICT</button>
-                </div>
-                <div class="col-2">
-                    <div class="my-3" >
-                    Date:- 
-                    <span id="date">
         
-                    </span>
-                </div></div>
-            </div>
-        </div>
        
         <div class="container">
             <div class="row">
@@ -124,15 +142,15 @@
                       <a class="dropdown-item" href="#">Separated link</a>
                     </div> -->
                   </div>
+                  
               </div>
-              <div class="col-6 col-sm-3">
+              
+              <div class="col-4 col-sm-3">
                   <div class="mx-1 my-1" style="font-size:large; font-family: 'Times New Roman', Times, serif;"><b>DEPLOYMENT CHART</b></div>
               </div>
-              <div class="col-6 col-sm-4">
-                <!-- <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form> -->
+              <div  >
+                <!-- <img src="photo-gallery/homeguard.jpg" width="70" height="70"> -->
+                <button class="button button1">DISTRICT</button>
             </div>
             <div class="col-6 col-sm-2">
                 <button type="button" class="btn btn-secondary btn-md">Download</button>
