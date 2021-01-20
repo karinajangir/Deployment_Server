@@ -9,7 +9,7 @@ body {
     background-color: #fff;
 }
 .ani{
-    max-width: 950px;
+    max-width: 920px;
     transform: translate3d(0px 0px 0px) rotate(0.0001deg);
     transform-style: preserve-3d;
     backface-visibility: hidden;
@@ -17,7 +17,7 @@ body {
 
 }
 .layerx{
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-8.7px -8.2px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: relative;
@@ -25,9 +25,13 @@ body {
     left: 0px;
     top: 0px;
 }
+/* .layerx img{
+    border-radius: 50% 50% 50% 50%;
+    float: left;
+} */
 .layery{
     z-index: 2;
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-26.1px -24.5px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -36,7 +40,7 @@ body {
     top: 0px;
 }
 .layera{
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-17.6px -3.3px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -46,7 +50,7 @@ body {
 }
 .layerb{
     z-index: 3;
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-8.8px -6.4px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -56,7 +60,7 @@ body {
 }
 .layerc{
 
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-13.2px -9.6px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -66,7 +70,7 @@ body {
 }
 .layerd{
     z-index: 4;
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-22px -16px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -75,7 +79,7 @@ body {
     top: 0px;
 }
 .layere{
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-26.4px -19.2px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -85,7 +89,7 @@ body {
 }
 .layerf{
     
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-35.2px -25.6px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;
@@ -94,7 +98,7 @@ body {
     top: 0px;
 }
 .layerg{
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(-30.8px -22.4px 0px);
     transform-style: preserve-3d;
     backface-visibility: hidden;
     position: absolute;

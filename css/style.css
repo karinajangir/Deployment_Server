@@ -1,0 +1,22 @@
+
+
+.about-section{
+    background: url(/photo-gallery/pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0; 
+}
+
+.inner-container{
+    width: 65%;
+    float: right;
+    background-color: white;
+    padding: 100px;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
