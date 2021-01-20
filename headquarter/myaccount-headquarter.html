@@ -43,7 +43,7 @@ margin-right: 5%;
             
                 
              <p>
-                <img src="photo-gallery/homeguard.jpg" width="70" height="70" >
+                <img src="/Deployment_Server/photo-gallery/homeguard.jpg" width="70" height="70" >
                  
                 RAJASTHAN HOMEGUARDS</p>
              
@@ -141,48 +141,6 @@ margin-right: 5%;
               
                 <!-- update credentials -->
                 <button type="button" class="btn btn-primary mb-2" style="padding: 6%;" data-toggle="modal" data-target="#myModal">Update Credentials</button>
-
-                <div class="modal fade" id="myModal" role="dialog">
-                  <div class="modal-dialog">
-    
-                    <div class="modal-content">
-                      <div class="modal-header">
-                         <h4 class="modal-title">Update Credentials</h4>
-                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-          
-                      </div>
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-group">
-                            <label for="office-address">Office Address</label>
-                            <input type="text" class="form-control" id="office-address" aria-describedby="emailHelp">
-                          </div>
-                          <div class="form-group">
-                            <label for="count">Total Count of Volunteers</label>
-                            <input type="text" class="form-control" id="count">
-                          </div>
-                          <div class="form-group">
-                            <label for="managed-by">Managed By</label>
-                            <input type="text" class="form-control" id="managed-by">
-                          </div>
-                          <div class="form-group">
-                            <label for="contact">Contact Number</label>
-                            <input type="text" class="form-control" id="contact">
-                          </div>
-                          <div class="form-group">
-                            <label for="designation">Designation</label>
-                            <input type="text" class="form-control" id="designation">
-                          </div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
-                       </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-      
-                  </div>
-                </div>
             </div>
         
     </div>
@@ -222,7 +180,49 @@ margin-right: 5%;
 </form>
 </div>
 
-    <footer class="footer mt-auto py-3">
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+         <h4 class="modal-title">Update Credentials</h4>
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="office-address">Office Address</label>
+            <input type="text" class="form-control" id="office-address" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="count">Total Count of Volunteers</label>
+            <input type="text" class="form-control" id="count">
+          </div>
+          <div class="form-group">
+            <label for="managed-by">Managed By</label>
+            <input type="text" class="form-control" id="managed-by">
+          </div>
+          <div class="form-group">
+            <label for="contact">Contact Number</label>
+            <input type="text" class="form-control" id="contact">
+          </div>
+          <div class="form-group">
+            <label for="designation">Designation</label>
+            <input type="text" class="form-control" id="designation">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+       </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <footer class="footer mt-5 py-3">
         <div class="container">
           <span class="text-white">&copy;Copyright, Rajasthan Home Guards Department</span>
         </div>
